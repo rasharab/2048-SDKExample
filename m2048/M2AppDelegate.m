@@ -14,8 +14,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   [BuddyBuildSDK setup];
-  
-  return YES;
+
+int *x = NULL; *x = 42;
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
